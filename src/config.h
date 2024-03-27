@@ -16,4 +16,8 @@ const float shoulderRotationSteps = (float)stepsPerRotation * stepperGearRatio;
 // Servo control pins MAKE SURE THESE ARE PWM PINS
 #define ELBOW_SERVO_PIN 9
 #define SHOULDER_SERVO_PIN 10
-#define GRIP_SERVO_PIN 11
+#define WRIST_SERVO_PIN 11
+#define GRIP_SERVO_PIN 12
+
+const int GRIPPER_MAX_POSITION 120;
+const int GRIPPER_MIN_POSITION 70;
